@@ -222,7 +222,7 @@ DEPENDENCIES
   rails (~> 7.0.4, >= 7.0.4.3)
   redis (~> 4.0)
   selenium-webdriver
-  simple_form
+  simple_form (~> 5.2)
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
