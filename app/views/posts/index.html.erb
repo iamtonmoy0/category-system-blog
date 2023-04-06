@@ -2,6 +2,10 @@
 
 <h1>Posts <%= link_to "new category ",new_category_path %> </h1>
 
+<% Category.all.each do |cat| %>
+<%= link_to cat.name,posts_path(category: cat.name)%>
+<%end%>
+<br/>
 <div id="posts">
   <% @posts.each do |post| %>
     <%= render post %>
